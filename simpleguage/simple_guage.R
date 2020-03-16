@@ -1,3 +1,5 @@
+
+#fuage function with breaks in it i.e 0,30,70,150 for this example.
 gg.gauge <- function(pos,breaks=c(0,30,70,150)) {
   require(ggplot2)
   get.poly <- function(a,b,r1=0.5,r2=1.0) {
@@ -24,5 +26,7 @@ gg.gauge <- function(pos,breaks=c(0,30,70,150)) {
           panel.grid=element_blank(),
           panel.border=element_blank()) 
 }
-gg.gauge(60,breaks=c(0,35,100,150))
 
+#Replace 60 with any numeric or number as per your need
+guage_value <- 60
+gg.gauge(guage_value,breaks=c(0,35,100,150))
