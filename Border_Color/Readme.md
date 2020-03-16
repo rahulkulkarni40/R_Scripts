@@ -1,8 +1,14 @@
-## Install The following Packages for this script:
+## Introduction 
+
+This Shiny Application is used to created border color for any Output Text box in shiny application or any item of the R shiny 
+
+## Requirenments 
 
 > install.packages("shiny")
 
 > install.packages("shinyjs")
+
+Shiny and Shinyjs packages for this application 
 
 ## Code Details 
 To get started, open its app.R file. Edit the script to match the one below:
