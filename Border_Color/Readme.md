@@ -1,4 +1,4 @@
-Install The following Packages for this script:
+##Install The following Packages for this script:
 
 > install.packages("shiny")
 
@@ -6,7 +6,7 @@ Install The following Packages for this script:
 
 
 To get started, open its app.R file. Edit the script to match the one below:
-
+```python
 library(shiny)
 
 # Define UI ----
@@ -21,6 +21,7 @@ server <- function(input, output) {
 
 # Run the app ----
 shinyApp(ui = ui, server = server)
+```
 This code is the bare minimum needed to create a Shiny app. The result is an empty app with a blank user interface, an appropriate starting point for this lesson.
 
 Layout
