@@ -1,1 +1,1 @@
-Here Are the few sample Of R scripts
+Here Are the few sample R scripts
