@@ -100,4 +100,4 @@ Converting to lower case
  
  Result output Screen:
  
- 
+ ![](https://github.com/rahulkulkarni40/R_Scripts/blob/master/Border_Color/border-color.PNG)
