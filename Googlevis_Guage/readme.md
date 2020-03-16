@@ -78,3 +78,4 @@ Additiona details: [link](https://www.rdocumentation.org/packages/googleVis/vers
 
 ## Result Output
 
+![](https://github.com/rahulkulkarni40/R_Scripts/blob/master/Googlevis_Guage/guage.PNG)
