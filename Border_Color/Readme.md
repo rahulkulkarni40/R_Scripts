@@ -63,10 +63,10 @@ Here
 - `Style="width:300px;padding-left:10px;"` Here you are asigning style for that specific Division 
 - `fluidRow()`  Rows exist for the purpose of making sure their elements appear on the same line (if the browser has adequate width)
 - `verbatimTextOutput("Pop",placeholder = TRUE)`
-* Arguments:
-*  `outputId`	output variable to read the value from i.e **pop**
-* `placeholder`	if the output is empty or NULL, should an empty rectangle be displayed to serve as a placeholder? (does not affect behavior when the the output in nonempty) 
+  * Arguments:
+  *  `outputId`	output variable to read the value from i.e **pop**
+  * `placeholder`	if the output is empty or NULL, should an empty rectangle be displayed to serve as a placeholder? (does not affect behavior when the the output in nonempty) 
 
 
-## Server File 
+## Server Code 
 
