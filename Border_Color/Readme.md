@@ -1,10 +1,10 @@
-##Install The following Packages for this script:
+## Install The following Packages for this script:
 
 > install.packages("shiny")
 
 > install.packages("shinyjs")
 
-
+## Code Details 
 To get started, open its app.R file. Edit the script to match the one below:
 ```python
 library(shiny)
@@ -24,7 +24,7 @@ shinyApp(ui = ui, server = server)
 ```
 This code is the bare minimum needed to create a Shiny app. The result is an empty app with a blank user interface, an appropriate starting point for this lesson.
 
-Layout
+## UI Layout
 Shiny uses the function fluidPage to create a display that automatically adjusts to the dimensions of your user’s browser window. You lay out the user interface of your app by placing elements in the fluidPage function.
 
 For example, the ui function below creates a user interface that has a title panel and a sidebar layout, which includes a sidebar panel and a main panel. Note that these elements are placed within the fluidPage function.
@@ -34,6 +34,9 @@ titlePanel and sidebarLayout are the two most popular elements to add to fluidPa
 
 sidebarLayout always takes two arguments:
 
-sidebarPanel function output
+- sidebarPanel function output
 
-mainPanel function output
+- mainPanel function output
+
+## Server File 
+
