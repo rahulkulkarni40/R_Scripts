@@ -43,3 +43,16 @@ sidebarLayout always takes two arguments:
 - sidebarPanel function output
 
 - mainPanel function output
+
+```python
+numericInput('n1', 'Enter your Base Accuracy', 40, 0.5, 100),
+ column(4,htmlOutput("view1")),
+```
+The item use here is NumericInput which has :
+- ID as `n1`
+- Text `Enter your Base Accuracy` as text
+- Range `40, 0.5, 100` (Value,Minimum,Maximun)
+
+And HTML Output name view1
+
+
