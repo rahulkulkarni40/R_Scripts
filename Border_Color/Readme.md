@@ -64,9 +64,40 @@ Here
 - `fluidRow()`  Rows exist for the purpose of making sure their elements appear on the same line (if the browser has adequate width)
 - `verbatimTextOutput("Pop",placeholder = TRUE)`
   * Arguments:
-  *  `outputId`	output variable to read the value from i.e **pop**
+  *  `outputId`	output variable to read the value from i.e **Pop**
   * `placeholder`	if the output is empty or NULL, should an empty rectangle be displayed to serve as a placeholder? (does not affect behavior when the the output in nonempty) 
 
 
 ## Server Code 
+``` python
+observe( **Code for the operations to be done**)
+```
+Create a reactive observer i.e as soon as any event or operation happens to that shiny page
 
+``` Python
+d <- input$TagColor
+```
+
+Storing the input value i.e `selectInput` value into a variable. i.e TagColor
+
+``` python
+color <- paste0("solid ", tolower(color))
+``` 
+Converting to lower case
+
+```python
+ runjs(paste0("document.getElementById('Pop').style.border ='",color,"'"))
+ ````
+ To run javascript code 
+ 
+ ```python
+ 
+ output$Pop <-renderText({d})
+ ```
+ 
+ This is used to render the value to that perticular output id 
+ 
+ 
+ Result output Screen:
+ 
+ 
