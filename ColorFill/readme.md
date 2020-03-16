@@ -96,4 +96,4 @@ Storing the input value i.e `selectInput` value into a variable. i.e TagColor
  
  Result output Screen:
  
- ![]()
+ ![](https://github.com/rahulkulkarni40/R_Scripts/blob/master/ColorFill/col-fill.PNG)
