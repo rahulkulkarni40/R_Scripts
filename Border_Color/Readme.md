@@ -44,5 +44,17 @@ sidebarLayout always takes two arguments:
 
 - mainPanel function output
 
+```python
+selectInput("TagColor", "Color of my Tag",choices=c("Red","Blue",                                                        "Yellow","Black", "grey","orange","pink","purple"), 
+                selected = "Red", multiple = FALSE)),
+  ```
+Here 
+- Id is `TagColor` 
+- Choices is the list of options to be displayed for the User for selection, 
+- `Selecte="Red"` Means by Default it is Red
+- `multiple = FALSE` Which means disabling multiple selection options.
+
+
+
 ## Server File 
 
