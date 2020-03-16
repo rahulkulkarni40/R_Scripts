@@ -56,3 +56,25 @@ The item use here is NumericInput which has :
 And HTML Output name view1
 
 
+## Server code
+
+```python
+output$view1 <- renderGvis({
+    df1 <- data.frame(Label = "Base Accuracy", Value = input$n1)
+    gvisGauge(df1,
+              options=list(min=0, max=150, greenFrom=120,
+                           greenTo=150, yellowFrom=75, yellowTo=119.9,
+                           redFrom=0, redTo=74.99, width=300, height=300));  
+    
+  })
+```
+
+Here output for view1 is of type renderGvis
+
+Additiona details: [link](https://www.rdocumentation.org/packages/googleVis/versions/0.6.2/topics/renderGvis)
+
+`df1` is the dataframe with value as input from `numberinput`
+
+
+## Result Output
+
